@@ -1,5 +1,5 @@
 {% set name = "rpcompletion" %}
-{% set version = "6.8.4" %}
+{% set version = "6.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brsynth/rpCompletion/archive/refs/tags/{{ version }}.tar.gz
-  sha256: e263b18a0d5f27a2a4cec664e3eb5be4c0206f418dc303033d1f0f893876e966
+  sha256: b1a584b26b338f2f4b6deecb48d157f7786b5d12d5b6f583418ff9eb1921ec32
 
 build:
   number: 0
